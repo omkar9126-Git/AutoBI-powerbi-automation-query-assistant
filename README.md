@@ -58,19 +58,28 @@ Setup, folder structure, usage flow, and best practices are detailed in instruct
 📂 Folder Overview
 
 FINAL INTERNSHIP PROJECT/
+
 ├── indivisual dashboards/
+
 ├── Templates for Indivisual Dashboards/
+
 ├── Final Web Application/
-│   ├── combined_streamlit_app_FINAL/
+
+  ├── combined_streamlit_app_FINAL/
          ├──app.py
          ├──query_parser
          ├──requirements.txt
          ├──run_app.bat(Main executor)
          ├──utils
+         
 ├── Combined_outputs/
+
 ├── Combined Copied Worksheet/
+
 ├──VSCode Scripts
+
 ├── instructions.md
+
 └── README.md
 
 📝 Notes
