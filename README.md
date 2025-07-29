@@ -84,6 +84,14 @@ FINAL INTERNSHIP PROJECT/
 └── README.md
 
 
+## 🧰 Tech Stack
+
+- **Python** – Automation logic, web application backend
+- **Streamlit** – Web app interface for dashboard tools and query assistant
+- **PowerBI** – Dashboard creation and data visualization
+- **Excel (SAP Exported)** – Source data input and templates
+- **Pandas** – Data processing and Excel merging
+
 
 📝 Notes:
 
