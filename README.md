@@ -84,7 +84,8 @@ FINAL INTERNSHIP PROJECT/
 
 
 
-📝 Notes
+📝 Notes:
+
 Always save files using the correct heat number as the filename (e.g., N6491.xlsx, N6491.pbix)
 
 Use only the designated folders for input/output to ensure automation runs correctly
