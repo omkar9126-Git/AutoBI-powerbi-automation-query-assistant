@@ -52,7 +52,7 @@ To ensure seamless execution:
 1. 📦 **Install Dependencies**  
    ```bash
    pip install -r requirements.txt
-###📖 Follow the Full Guide
+##📖 Follow the Full Guide
 **Setup, folder structure, usage flow, and best practices are detailed in instructions.md.**
 
 
