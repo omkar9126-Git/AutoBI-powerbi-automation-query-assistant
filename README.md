@@ -82,6 +82,8 @@ FINAL INTERNSHIP PROJECT/
 
 └── README.md
 
+
+
 📝 Notes
 Always save files using the correct heat number as the filename (e.g., N6491.xlsx, N6491.pbix)
 
@@ -92,6 +94,7 @@ Refresh the PowerBI files manually after combining data if prompted
 Make changes for your desired File path in app.py in Final Web Application as it is hardcoded.
 
 Do the same output file path change for Combined_to_Connected.exe, you will find thier code in VSCode Scripts Folder.
+
 
 📣 Contributions
 This project was developed during an internship at Bajaj Mukand Ltd. and is tailored for internal use, but contributions or adaptations for general use are welcome. Feel free to fork or open issues for suggestions.
