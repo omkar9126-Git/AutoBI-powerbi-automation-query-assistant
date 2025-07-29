@@ -6,7 +6,7 @@ Designed for both technical and non-technical users, **AutoBI** reduces manual e
 
 ---
 
-## ✨ Features
+## ✨ Features:
 
 - 📊 **Individual Dashboard Automation**  
   Generate PowerBI dashboards for each heat number using standardized templates with minimal clicks.
@@ -26,7 +26,7 @@ Designed for both technical and non-technical users, **AutoBI** reduces manual e
 
 ---
 
-## 💡 Use Cases
+## 💡 Use Cases:
 
 - **Production Reporting**: Monitor key data points such as material usage, heat numbers, and production metrics.
 - **Cost Analysis**: Generate reports for actual quantities, pricing, and unit-level costs across batches.
@@ -97,5 +97,6 @@ Make changes for your desired File path in app.py in Final Web Application as it
 Do the same output file path change for Combined_to_Connected.exe, you will find thier code in VSCode Scripts Folder.
 
 
-📣 Contributions
+📣 Contributions:
+
 This project was developed during an internship at Bajaj Mukand Ltd. and is tailored for internal use, but contributions or adaptations for general use are welcome. Feel free to fork or open issues for suggestions.
