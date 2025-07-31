@@ -4,6 +4,8 @@ This guide explains how to generate **individual dashboards**, combine them, and
 
 "indivisual" is not a spelling mistake, its a actual folder name, please do not change it!
 ---
+## MAKE SURE TO HAVE PYTHON 3.9, and should -
+  Open CMD, navigate to web application folder, and type - " pip install -r requirements.txt "
 
 ## 🔹 Step 1: Creating Individual Dashboards
 
