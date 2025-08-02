@@ -2,14 +2,13 @@
 
 This guide explains how to generate **individual dashboards**, combine them, and run **natural language queries** on Excel data using the custom-built web app.
 
-"indivisual" is not a spelling mistake, its a actual folder name, please do not change it!
 ---
 
 ## 🔹 Step 1: Creating Individual Dashboards
 
 ### 1. Choose Templates
 - Navigate to:  
-  `Templates for Indivisual Dashboards`
+  `Templates for Individual Dashboards`
 - Based on the heat number and sections involved (e.g., `UHPF, CON, LRF`), open the appropriate template Excel and PowerBI files.
 
 ![Templates Folder](./assets/templateindivisual.png)
@@ -20,7 +19,7 @@ This guide explains how to generate **individual dashboards**, combine them, and
 
 ### 2. Save Copies as Heat Number
 - Save both the Excel and PowerBI files using the **heat number** as the filename (e.g., `N6491`)  
-- Save them into the `Indivisual Dashboards` folder
+- Save them into the `Individual Dashboards` folder
 
 ---
 
@@ -84,9 +83,10 @@ Copy from the **main SAP Excel file** into the connected Excel workbook:
 
 ### 7. Web App Interface
 - After running, the dashboard will load
+- INPUT THE FILEPATH OF THE `Individual Dashboards` FOLDER.
 - You’ll see options like:
 - 🔘 `Run: Combine Excel Files`
-- 🔘 `Run: Copy to Connected`
+- 🔘 `Folder Summary`
 
 ![interface](./assets/combineconnect.png)
 
@@ -94,20 +94,31 @@ Copy from the **main SAP Excel file** into the connected Excel workbook:
 
 ### 8. Combine Excel Files
 - Click **Combine Excel Files**
-- Select the `Indivisual Dashboards` folder
+- Select the `Individual Dashboards` folder
 - Choose the `Combined_outputs` folder to save the result
 
 ![combined_outputs folder](./assets/outputcombine.png)
 
 ---
 
-### 9. Connect Combined Output
-- Click **Copy to Connected**
-- Select the newly created combined Excel file  
-- Open `combined_output_...pbix` PowerBI file and refresh
+### 9. If needed, Click Folder Report
+- It will show you the folder summary, how many files are supported, types of files etc.
+
+### 10. Now Open the Combined Output File
+- Down in the application, you can find all combined files. 
+  MAKE SURE THE NAME STARTS WITH `combined_output_...` (... part can contain your heat Numbers.)
+- Then Go to:
+
+Transform Data > Data Source Settings > Data Sources in Current File > Change
+- choose the combined output file you want from the `Combined_outputs` folder.
+
+- Apply Changes.
 
 ✅ Combined Dashboard is now ready
 
+- To make multiple combined dashboards, simply Save As the `combined_output_...` to the name you want,
+and change the new file's connected Excel File.
+REMEMBER TO ALWAYS FOLLOW THE " MAKE SURE THE NAME STARTS WITH `combined_output_...`" WHEN SAVING AS.
 ---
 
 ## 🔸 Step 4: Query with Natural Language
